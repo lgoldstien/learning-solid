@@ -6,5 +6,9 @@ SOLID design principals are a set of conventions used to create easily maintaina
 
 ##TOC
 
-#[S](https://github.com/lgoldstien/solid/tree/master/S) 
-is for SRP - Single responsibility principle
+* [S](https://github.com/lgoldstien/solid/tree/master/S) is for SRP - Single responsibility principle
+* [O](https://github.com/lgoldstien/solid/tree/master/O) is for OCP - Open/closed principle
+* [L](https://github.com/lgoldstien/solid/tree/master/L) is for LSP - Liskov substitution principle
+* [I](https://github.com/lgoldstien/solid/tree/master/I) is for ISP - Interface segregation principle
+* [D](https://github.com/lgoldstien/solid/tree/master/D) is for DIP - Dependency inversion principle
+
