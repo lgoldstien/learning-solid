@@ -6,4 +6,5 @@ SOLID design principals are a set of conventions used to create easily maintaina
 
 ##TOC
 
-#[S](https://github.com/lgoldstien/solid/tree/master/S) is for SRP - Single responsibility principle
+#[S](https://github.com/lgoldstien/solid/tree/master/S) 
+is for SRP - Single responsibility principle
