@@ -5,24 +5,24 @@
  */
 
 class Log {
-	/**
-	 * @var string
-	 */
-	public $file;
+    /**
+     * @var string
+     */
+    public $file;
 
-	function __construct() {
+    function __construct() {
 
-	}
+    }
 
-	public function putLog( $app, $content, $level="log" ) {
-		$strLogEntry = "[" . date("D M j G:i:s T Y") . "] ";
-		$strLogEntry .= "{$app} - {$level} - {$content}";
-		return $strLogEntry;
-	}
+    public function putLog( $app, $content, $level="log" ) {
+        $strLogEntry = "[" . date("D M j G:i:s T Y") . "] ";
+        $strLogEntry .= "{$app} - {$level} - {$content}";
+        return $strLogEntry;
+    }
 
-	public function logToFile( $line ) {
-		file_put_contents($this->file, $line . "\n", FILE_APPEND | LOCK_EX);
-	}
+    public function logToFile( $line ) {
+        file_put_contents($this->file, $line . "\n", FILE_APPEND | LOCK_EX);
+    }
 }
 
 $log = new Log();
